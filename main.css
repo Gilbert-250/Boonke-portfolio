@@ -1,0 +1,235 @@
+.head:hover {
+    box-shadow: 0 15px 36px red;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    transition: 0.3s;
+    letter-spacing: 2px;
+  }
+  .Gilbert:hover {
+    letter-spacing: 10px;
+    transition: 0.5s;
+    cursor: default;
+  }
+  .Gilbertname:hover {
+    transition: 0.5s;
+    color: brown;
+    letter-spacing: 2px;
+    opacity: 1;
+  }
+
+  .hammer1 {
+    animation-name: hammer1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer1 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 100%;
+      height: 30px;
+      background: rgb(3, 165, 3);
+    }
+  }
+
+  .hammer2 {
+    animation-name: hammer2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer2 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 89%;
+      height: 30px;
+      background: orange;
+    }
+  }
+
+  .hammer3 {
+    animation-name: hammer3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer3 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 70%;
+      height: 30px;
+      background: rgb(236, 236, 0);
+    }
+  }
+
+  .hammer4 {
+    animation-name: hammer4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer4 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 99%;
+      height: 30px;
+      background: rgb(15, 209, 15);
+    }
+  }
+
+  .hammer5 {
+    animation-name: hammer5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer5 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 89%;
+      height: 30px;
+      background: orange;
+    }
+  }
+
+  .hammer6 {
+    animation-name: hammer6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hammer6 {
+    from {
+      width: 1px;
+      height: 30px;
+      background: red;
+    }
+    to {
+      width: 95%;
+      height: 30px;
+      background-color: rgb(200, 255, 0);
+    }
+  }
+
+  .box1 {
+    width:400px;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background: linear-gradient(magenta, darkred);
+  }
+  @keyframes box1 {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .container {
+    animation-name: container;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    cursor: default;
+  }
+
+  @keyframes container {
+    from {
+      width: 400px;
+      height: 300px;
+      background: transparent;
+    }
+    to {
+      width: 100%;
+      height: 300px;
+      background: transparent;
+    }
+  }
+  .div1
+  {
+    background-image:url(image/comp\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:600px;
+    width:100%;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+  }
+  .div2
+  {
+    background-image:url(image/comp\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:600px;
+    width:100%;
+    color: magenta;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+  }
+  .div3
+  {
+    background-image:url(image/comp\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:600px;
+    width:100%;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+  }
+  .div4
+  {
+    background-image:url(image/comp\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:600px;
+    width:100%;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+  }
+  .div5
+  {
+    background-image:url(image/comp\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:600px;
+    width:100%;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+  }
+  
